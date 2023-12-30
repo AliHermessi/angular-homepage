@@ -1,0 +1,37 @@
+/* Center the table */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  /* Style table header */
+  th {
+    font-weight: bold;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 40px;
+    
+    text-align: center;
+  }
+  
+  /* Style image within cells */
+  .card-image {
+    max-width: 450px;
+    max-height: 450px;
+    margin:40px;
+  }
+  
+  /* Style title */
+  .card-title {
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Style description */
+  .card-description {
+    color: darkred;
+    font-size: 0.9em; /* Adjust font size smaller than title */
+  }
+  
